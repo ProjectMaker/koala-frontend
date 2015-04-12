@@ -2,7 +2,7 @@ var express = require("express");
 var morgan = require("morgan");
 var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
-
+var argv = require('optimist').argv;
 var users = require("./mock/users");
 
 
@@ -24,5 +24,5 @@ app.get('/', function(req, res) {
 	res.sendfile('index.html');
 });
 
-app.listen(8080, "127.0.0.1");
+app.listen(8080, argv.fe_ip);
 console.log("App listening on port 8080");
