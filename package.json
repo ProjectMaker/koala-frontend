@@ -1,0 +1,26 @@
+{
+  "name": "koala-frontend",
+  "version": "1.0.0",
+  "description": "Serveur web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ProjectMaker/koala-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectMaker/koala-frontend/issues"
+  },
+  "homepage": "https://github.com/ProjectMaker/koala-frontend",
+  "devDependencies": {
+    "body-parser": "^1.12.2",
+    "express": "^4.12.3",
+    "method-override": "^2.3.2",
+    "morgan": "^1.5.2",
+    "optimist": "^0.6.1"
+  }
+}
